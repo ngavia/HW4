@@ -1,0 +1,26 @@
+---
+title: "HW4"
+author: "Dr K"
+date: "September 12, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown  HW4
+
+### Q1
+
+```{r}
+pnorm(c(-1.35), mean=0, sd=1, 
+  lower.tail=TRUE)
+```
+
+```{r}
+pnorm(c(1.48), mean=0, sd=1, 
+  lower.tail=FALSE)
+```
+
+
