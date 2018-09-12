@@ -23,4 +23,91 @@ pnorm(c(1.48), mean=0, sd=1,
   lower.tail=FALSE)
 ```
 
+```{r}
+pnorm(c(1.5), mean=0, sd=1, 
+  lower.tail=TRUE) - pnorm(c(-0.4), mean=0, sd=1, 
+  lower.tail=TRUE)
+```
+```{r}
+pnorm(c(2.0), mean=0, sd=1, 
+  lower.tail=FALSE) + pnorm(c(-2.0), mean=0, sd=1, 
+  lower.tail=TRUE)
+```
+### Q2
+
+
+```{r}
+pnorm(c(-1.13), mean=0, sd=1, 
+  lower.tail=FALSE)
+```
+
+```{r}
+pnorm(c(0.18), mean=0, sd=1, 
+  lower.tail=TRUE)
+```
+```{r}
+pnorm(c(8.0), mean=0, sd=1, 
+  lower.tail=FALSE)
+```
+```{r}
+pnorm(c(0.5), mean=0, sd=1, 
+  lower.tail=TRUE) - pnorm(c(-0.5), mean=0, sd=1, 
+  lower.tail=TRUE)
+```
+### Q3
+
+
+
+### Q4
+
+```{r}
+pnorm(c(0.0), mean=14.7, sd=33, 
+  lower.tail=TRUE)
+```
+```{r}
+qnorm(c(.15), mean=14.7, sd=33, 
+  lower.tail=FALSE)
+```
+
+### Q5
+
+
+
+
+
+
+### Q6
+
+
+
+### Q7
+
+
+```{r}
+dbinom(6,10,prob=.697)
+```
+
+
+```{r}
+dbinom(4,10,prob=(1-.697))
+```
+```{r}
+sum(dbinom(0:2,5,.697))
+```
+
+```{r}
+1-dbinom(0,5,.697)
+```
+
+
+### Q8
+
+
+
+### Q9
+
+
+### Q10
+
+
 
