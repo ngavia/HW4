@@ -12,22 +12,23 @@ knitr::opts_chunk$set(echo = TRUE)
 ## R Markdown  HW4
 
 ### Q1
-
+ a.P(Z < -1.35) =    
 ```{r}
 pnorm(c(-1.35), mean=0, sd=1, 
   lower.tail=TRUE)
 ```
-
+b. P(Z > 1.48) =  
 ```{r}
 pnorm(c(1.48), mean=0, sd=1, 
   lower.tail=FALSE)
 ```
-
+c. P(-0.4 < Z < 1.5) =  
 ```{r}
 pnorm(c(1.5), mean=0, sd=1, 
   lower.tail=TRUE) - pnorm(c(-0.4), mean=0, sd=1, 
   lower.tail=TRUE)
 ```
+d. P(| Z | >2) =  
 ```{r}
 pnorm(c(2.0), mean=0, sd=1, 
   lower.tail=FALSE) + pnorm(c(-2.0), mean=0, sd=1, 
